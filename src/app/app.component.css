@@ -1,0 +1,43 @@
+.map {
+    /* height: 50vh; */
+    /* width: 100%; */
+}
+.controls {
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    /* right: 0; */
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr auto;
+    grid-gap: 1rem;
+}
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: #f0f0f0;
+    padding: 0 1rem;
+    font-weight: 500;
+    display: grid;
+}
+ya-map {
+    background: red;
+}
+button {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background: blue;
+    color: #fff;
+    padding: 0 1rem;
+}
+.user-info {
+    padding: 0 1rem;
+}
+.delivery-info {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: 1px solid #cacaca;
+}
